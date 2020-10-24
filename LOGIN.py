@@ -54,6 +54,7 @@ my_img = Label(image=img).grid(padx=50, pady=5, sticky=S)
 frame = LabelFrame(root, padx=350, pady=50)
 frame.grid(padx=85, pady=40)
 
+
 # User-Name Index
 UserName_label = Label(frame, text="UserName:*", padx=2, pady=5, justify=RIGHT, font=("Times", 14, "bold")).grid(row=0, column=0, padx=1, pady=5)
 E = Entry(frame, width=50, borderwidth=3, bg="#DCDCDC")
